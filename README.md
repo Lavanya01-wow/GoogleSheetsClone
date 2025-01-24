@@ -108,12 +108,6 @@ This approach keeps the logic transparent and the code more direct, without the 
    - **Remove Duplicates**: Uses a `Set` to track row data in a given range; duplicates are removed by deleting the corresponding table row.  
    - **Find & Replace**: Searches within the specified range and uses `.replace()` to swap text.
 
-## Future Improvements
-- **Persistent Storage**: Add localStorage or a backend to save and load spreadsheet data.
-- **Multiple Sheets**: Introduce tabs for multiple sheets within a single interface.
-- **More Formulas**: Expand formula support for more advanced operations (e.g., VLOOKUP, IF statements, etc.).
-- **Collaboration**: Real-time editing with multiple users via WebSocket or similar technology.
-- **UI Enhancements**: Add a richer toolbar with custom color pickers, font styling options, etc.
 
 ## Contributing
 1. **Fork** the repository.
