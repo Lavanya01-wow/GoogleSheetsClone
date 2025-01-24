@@ -1,5 +1,5 @@
 # Google Sheets Clone
-file:///C:/Users/lavan/Downloads/GoogleSheetsClone/index.html 
+"C:\Users\lavan\OneDrive\Pictures\Screenshots\Screenshot 2025-01-24 224049.png"
 **Table of Contents**
 1. [Overview](#overview)  
 2. [Tech Stack](#tech-stack)  
