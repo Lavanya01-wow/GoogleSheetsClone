@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Sheets Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Google Sheets Clone</h1>
+
+  <!-- Formula Bar -->
+  <div id="formula-bar">
+    <input type="text" id="formula-input" placeholder="Enter formula (e.g., =SUM(A1:A3))">
+    <button onclick="applyFormula()">Apply Formula</button>
+  </div>
+
+  <!-- Toolbar -->
+  <div id="toolbar">
+    <button onclick="formatCell('bold')">Bold</button>
+    <button onclick="formatCell('italic')">Italic</button>
+    <button onclick="changeTextColor()">Text Color</button>
+    <button onclick="addRow()">Add Row</button>
+    <button onclick="addColumn()">Add Column</button>
+    <button onclick="deleteRow()">Delete Row</button>
+    <button onclick="deleteColumn()">Delete Column</button>
+    <button onclick="trimCell()">Trim</button>
+    <button onclick="convertToUpper()">Upper</button>
+    <button onclick="convertToLower()">Lower</button>
+    <button onclick="removeDuplicates()">Remove Duplicates</button>
+    <button onclick="findAndReplace()">Find & Replace</button>
+    <button onclick="convertToTitleCase()">Title Case</button>
+    <button onclick="reverseText()">Reverse Text</button>
+  </div>
+
+  <!-- Spreadsheet Container -->
+  <div id="spreadsheet-container">
+    <table id="spreadsheet"></table>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
